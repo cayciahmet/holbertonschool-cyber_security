@@ -1,2 +1,2 @@
 #!/bin/bash
-last -F | head -5
+last -5 -F -w
