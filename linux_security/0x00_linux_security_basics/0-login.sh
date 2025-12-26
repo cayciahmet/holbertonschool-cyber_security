@@ -1,2 +1,2 @@
-#!/usr/bin/env bash
-last -F -n 5
+#!/bin/bash
+last -F | head -5
