@@ -1,2 +1,2 @@
 #!/bin/bash
-last | head -n 5
+last -n 5
