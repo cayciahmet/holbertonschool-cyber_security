@@ -1,2 +1,2 @@
 #!/bin/bash
-john --format=Raw-MD5 --wordlist=/usr/share/wordlists/rockyou.txt "$1" && john --show --format=Raw-MD5 "$1" | cut -d: -f2 | grep -v "password hashes" > 4-password.txt
+john --wordlist=/usr/share/wordlists/rockyou.txt "$1" && john --show "$1" | awk -F: 'NF>1 {print $2}' > 4-password.txt
