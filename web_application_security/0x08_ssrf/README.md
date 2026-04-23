@@ -27,3 +27,4 @@ EOF
 git add 1-flag.txt
 git commit -m Task 1: SSRF bypass using decimal representation of localhost successful
 git push origin main*: Bypassed advanced SSRF filters using a combined Whitelist and Path Traversal attack on port 3002.
+ 
