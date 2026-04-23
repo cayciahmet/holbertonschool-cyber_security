@@ -16,3 +16,14 @@ EOF
 git add 1-flag.txt
 git commit -m Task 1: SSRF bypass using decimal representation of localhost successful
 git push origin main*: Bypassed advanced SSRF filters using a combined Whitelist and Path Traversal attack on port 3002.
+* **2. Exploit SSRF to breach our security~/holbertonschool-cyber_security/web_application_security/0x08_ssrf
+
+# 1-flag.txt faylına bayrağı yazırıq
+cat << 'EOF' > 1-flag.txt
+f20f1f7a6d31b9b56b324e8ee5f778ad
+EOF
+
+# GitHub-a göndəririk
+git add 1-flag.txt
+git commit -m Task 1: SSRF bypass using decimal representation of localhost successful
+git push origin main*: Bypassed advanced SSRF filters using a combined Whitelist and Path Traversal attack on port 3002.
